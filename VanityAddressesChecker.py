@@ -9,7 +9,7 @@ if os.path.exists("working_words.txt"):
 if os.path.exists("working_leet_words.txt"):
     os.remove("working_leet_words.txt")
 
-good_letters = ['a','b','c','d','e','f','g','i','m','o','r','s','t','z']
+good_letters = ['a','b','c','d','e','f','g','i','m','o','r','s','t','z'] #doesnt have functionality just so its easier to understand
 letters_to_leet = {'a':'a', 'b':'b', 'c': 'c', 'd':'d', 'e':'e', 'f':'f', 'g':'9', 'i':'1', 'm':'44', 'o':'0', 'r':'2', 's':'5', 't':'7', 'z':'2'}
 bad_letters = ['h','j','k','l','n','p','q','u','v','w','x','y']
 
